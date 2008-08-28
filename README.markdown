@@ -1,4 +1,4 @@
-Joeh_Cmd é uma classe que serve para tratar a montagem de comandos e seus argumentos através do PHP, usando Fluent Interface.
+[Joeh_Cmd](http://github.com/rafaelss/joeh-cmd/tree/master) é uma classe que serve para tratar a montagem de comandos e seus argumentos através do PHP, usando Fluent Interface.
 
     require 'Joeh/Cmd.php'
 
