@@ -2,10 +2,10 @@ Joeh_Cmd é uma classe que serve para tratar a montagem de comandos e seus argum
 
     require 'Joeh/Cmd.php'
 
-    $cmd = new Joeh_Cmd('http://www.google.com/');
+    $cmd = new Joeh_Cmd('curl');
     echo $cmd
         ->G()
-        ->url($url);
+        ->url('http://www.google.com/');
 
     // Ouput:
     // curl -G --url http://www.google.com/
